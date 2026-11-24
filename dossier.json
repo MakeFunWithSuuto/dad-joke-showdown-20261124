@@ -1,0 +1,7 @@
+{
+ "entry_txt": "I put up a ceiling fan today. Finally, the ceiling has someone rooting for it.",
+ "chars": 78,
+ "files": {
+  "main.ts": "// Dad Joke Showdown entry: writes one dad joke, the same bytes on every run.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst JOKE = \"I put up a ceiling fan today. Finally, the ceiling has someone rooting for it.\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", JOKE);\n"
+ }
+}
