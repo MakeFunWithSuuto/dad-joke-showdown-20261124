@@ -2,6 +2,6 @@
  "entry_txt": "Your mom says I'm obsessed with pottery class. What can I say? I throw myself into things.",
  "chars": 90,
  "files": {
-  "main.ts": "// Dad Joke Showdown entry: writes one dad joke, the same bytes on every run.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst JOKE = \"Your mom says I'm obsessed with pottery class. What can I say? I throw myself into things.\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", JOKE);\n"
+  "main.ts": "// Dad Joke Showdown entry: writes one dad joke, the same bytes on every run.\n// The turn: potters \"throw\" clay on the wheel, and dad \"throws himself into things\".\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst JOKE = \"Your mom says I'm obsessed with pottery class. What can I say? I throw myself into things.\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", JOKE);\n"
  }
 }
